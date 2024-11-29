@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  header {
+    background-color: #541628;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  main {
+    padding: 1rem;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Profiles Section */
+  #profiles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .profile {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    background-color: white;
+    width: 150px;
+  }
+  
+  .profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .profile button {
+    background-color: #541628;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .profile button:hover {
+    background-color: #e55b5b;
+  }
+  
+  /* Chat Section */
+  #chat-section {
+    margin-top: 2rem;
+  }
+  
+  #chat-box {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: white;
+    height: 300px;
+    overflow-y: auto;
+    margin-bottom: 1rem;
+  }
+  
+  #chat-input {
+    width: 80%;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  
+  #send-btn {
+    padding: 0.5rem;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
